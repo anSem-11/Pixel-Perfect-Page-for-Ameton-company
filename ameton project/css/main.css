@@ -1,0 +1,416 @@
+@font-face {
+	font-family: 'MuseoSansCyrl';
+	src: url('../fonts/MuseoSansCyrl-500.woff') format('woff');
+    font-display: swap;
+    font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl';
+    src: url('../fonts/MuseoSansCyrl-700.woff') format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl';
+	src: url('/fonts/MuseoSansCyrl-300.woff') format('woff');
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl';
+	src: url('/fonts/MuseoSansCyrl-900.woff') format('woff');
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+/* Specification */
+
+body {
+    font-family: 'MuseoSansCyrl', sans-serif;
+    font-size: 17px;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 4px;
+} 
+
+h2, h3, h4, h5 {
+    font-weight: 600;
+    color: #1A1A1A;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 47px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+/* Header */
+
+.header {
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__container {
+    background: url(../img/header__background.png) no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+    background-color: #80bcec;
+    border-radius: 40px;
+    max-height: 306px;
+    color: white;
+    max-width: 1200px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 82px;
+}
+
+.title__text {
+    max-width: 535px;
+    margin: 0 auto;
+    margin-bottom: 39px;
+}
+
+.btns__list {
+    margin-bottom: 54px;
+}
+
+.btns__item {
+    margin: 0 4px;
+}
+
+.btn {
+    width:calc(113px + (160 - 134) * ((100vw - 320px) / (1200 - 320)));
+    height: 48px;
+    font-family: 'MuseoSansCyrl', sans-serif;
+    font-size: calc(10px + (15 - 12) * ((100vw - 320px) / (1200 - 320)));;
+    font-weight: 600;
+    color: #1A1A1A;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    border: 3px solid #5992E8;
+}
+
+.icon {
+    width: 14px;
+    height: 13px;
+    margin-right: 6px;
+}
+
+/* Section - Социальные сети */
+
+.social__container{
+    height: 166px;
+    margin-bottom: 80px;
+}
+
+.description {
+    padding-left: 134px;
+}
+
+.description__text {
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 7px;
+}
+
+.icons {
+    max-width: 406px;
+    margin-left: 38px;
+    margin-top: 6px;
+}
+
+.icons__item {
+    margin-right: 14px;
+}
+
+.social-icon {
+    width: 56px;
+    height: 56px;
+}
+
+/* Section - Карусель */
+
+.faq {
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.delivery__card {
+    width: 282px;
+    height: 160px;
+    margin-bottom: 65px;
+}
+
+.delivery__info {
+    margin-top: 16px;
+}
+
+.info__one {
+    margin-left: 7px;
+}
+
+.info__two {
+    margin-left: 10px;
+}
+
+.info__three {
+    margin-left: 14px;
+}
+
+.info__four {
+    margin-left: 17px;
+}
+
+.img__two {
+    margin-top: 3px;
+}
+
+.delivery__title {
+    max-width: 250px;
+    line-height: 24px;
+}
+
+.delivery__title__one {
+    max-width: 161px;
+}
+
+.delivery__text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #949494;
+    max-width: 250px;
+    line-height: 21px;
+}
+
+.carousel-control-next {
+    position: absolute;
+    bottom: 85px;
+    right: -76px;
+}
+
+.arrow {
+    fill: #1A1A1A;
+    width: 16px;
+    height: 12px;
+}
+
+/* Section - Справка */
+
+.reference {
+    margin-bottom: 34px;
+}
+
+.reference__item {
+    padding: 17px 16px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reference__item:nth-child(3) {
+    padding-top: 26px;
+}
+
+.reference__text {
+    font-size: 13px;
+    line-height: 15px;
+    color: #949494;
+    max-width: 440px;
+}
+
+.reference__arrow {
+    width: 7px;
+    height: 13px;
+    fill: #949494;
+}
+
+footer {
+    padding-bottom: 100px;
+}
+
+/* Медиазапросы */
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 40px;
+    } 
+
+    .header__container {
+        margin-bottom: 50px;
+    }
+
+    .description {
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .icon {
+        width: 10px;
+        height: 9px;
+        margin-right: 6px;
+    }
+
+    .icons {
+        padding-top: 17px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .icons__item {
+        margin: 0;
+    }
+    
+    .delivery__card {
+        width: 175px;
+        margin-bottom: 100px;
+    }
+
+    .delivery__title {
+        font-size: 16px;
+    }
+
+    .delivery__text {
+        font-size: 13px;
+    }
+
+    img {
+        width: 62px;
+        height: 106px;
+    }
+
+    .reference {
+        text-align: center;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .header__container {
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        font-size: 32px;
+        margin-top: 30px;
+        margin-bottom: 4px;
+    } 
+
+    .title__text {
+        margin-bottom: 10px;
+    }
+
+    .btns__list {
+        flex-wrap: wrap;
+    }
+
+    .btns__item {
+        margin-bottom: 10px;
+        margin: 10px 12px;
+    }
+
+    .social__container {
+        margin-bottom: 60px;
+    }
+
+    .carousel__row {
+        flex-wrap: wrap;
+    }
+
+    .delivery__card {
+        margin-bottom: 15px;
+        width: 375px;
+        height: 100%;
+        padding: 0 auto;
+    }
+
+    img {
+        display: none;
+    }
+
+    .delivery__title__one {
+        max-width: 100%;
+    }
+
+    .carousel-control-next {
+        right: 1px;
+    }
+
+    .reference {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .header__container{
+        max-height: 600px;
+        background-size: cover;
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 4px;
+    } 
+
+    .title__text {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .header {
+        height: 500px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .social-icon {
+        width: 43px;
+    }
+
+    .carousel-control-next {
+        right: -34px;
+    }
+}
+

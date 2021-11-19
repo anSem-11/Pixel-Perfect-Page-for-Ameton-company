@@ -1,0 +1,116 @@
+@font-face {
+	font-family: 'MuseoSansCyrl';
+	src: url('../fonts/MuseoSansCyrl-500.woff') format('woff');
+    font-display: swap;
+    font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl';
+    src: url('../fonts/MuseoSansCyrl-700.woff') format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl';
+	src: url('/fonts/MuseoSansCyrl-300.woff') format('woff');
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl';
+	src: url('/fonts/MuseoSansCyrl-900.woff') format('woff');
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MuseoSansCyrl', sans-serif;
+    font-weight: 400;
+}
+
+.wrapper{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #1A1A1A;
+}
+
+.header__wrapper {
+    display: flex;
+    margin-top: 23px;
+}
+
+.second_page__title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-right: 15px;
+    margin-bottom: 0;
+}
+
+.share__icon {
+    width: 18px; 
+    height: 20px;
+    padding-top: 3px;
+}
+
+.second_page__text {
+    font-size: 15px;
+    max-width: 690px;
+    margin-top: 18px;
+    line-height: 21px;
+}
+
+.second_page__btn {
+    background: #36BA5F;
+    height: 48px;
+    width: 224px;
+    font-family: 'MuseoSansCyrl', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.second_page__btn__icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.problem__btns {
+    margin-top: 16px;
+    display: flex;
+}
+
+.second_page__icon {
+    fill: #36BA5F;
+    margin-right: 8px;
+    width: 48px;
+}
+
+.problem {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+@media (max-width: 375px) {
+    .second_page__btn {
+        width: 200px;
+        font-size: 10px;
+    }
+}
